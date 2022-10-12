@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8 /">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="widht=device-widht,initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css" />
+        <title>LUCKY WHEEL OSCUROBET</title>
+    </head>
+    <body>
+        <meta background-image: url(BG1.jpg);>
+        <main>
+            <div class="main-wheel">
+                <div class="icon-arrow">
+                    <img src="./transparent-arrows-icon-arrow-right-icon-art-studio-icon-5dc9369333cf29.9871236915734677952122.png" alt="arrow" />
+                </div>
+                <div class="logo-oscuro">
+                    <img src="./LOGO.png"/>
+
+                </div>
+                <ul class="wheel"></ul>
+            </div>
+            <div>
+                <button class="btn-start" onclick="audio.play();">PLAY NOW</button>
+                <script type="text/javascript">
+                    const audio = new Audio();
+                    audio.src = "./wheel.mp3";
+                </script>
+            </div>
+            <audio 
+            controls="controls"
+            id="selamat"
+            src="selamat.mp3"
+            type="audio/mp3"
+
+            ></audio>
+            
+            <h1 class="msg"></h1>
+        </main>
+        <script src="./main.js"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>   
+        
+    </body>
+</html>
+
